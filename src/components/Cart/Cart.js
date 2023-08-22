@@ -17,7 +17,7 @@ function Cart() {
     return (
         <div className='cartContainer'>
             <h2>Tus compras</h2>
-            {cart.map( p => <CartItem key={p.id} {...p}/>) }
+            {cart.map( p => <CartItem key={p.id} {...p} />) }
             <h3>Total: ${totalCompra.toFixed(2)}</h3>
             <div className='footerCart'>
             <button onClick={() => limpiarCart() } className='botonFooter'> Limpiar Carrito</button>

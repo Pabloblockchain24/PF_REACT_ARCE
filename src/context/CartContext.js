@@ -20,14 +20,6 @@ export const CartProvider = ({ children }) => {
         }
     }
 
-    const borrarItem = (itemId) => {
-        // const elementoEliminar = cart.id.find(itemId)
-        // const cantidadEliminar = elementoEliminar.cantidad
-        // setCantidadTotal(cantidadTotal-cantidadEliminar)
-        const nuevoCarro = cart.filter(prod => prod.id !== itemId)
-        setCart(nuevoCarro)
-    }
-
     const limpiarCart = () => {
         setCart([])
         setTotalUnidades(0)
@@ -39,7 +31,7 @@ export const CartProvider = ({ children }) => {
     }
 
     return (
-        <CartContext.Provider value={{cart,agregarItem, borrarItem, limpiarCart, totalUnidades, totalCompra}} >
+        <CartContext.Provider value={{cart,agregarItem, limpiarCart, totalUnidades, totalCompra}} >
             { children }
         </CartContext.Provider>       
     )
