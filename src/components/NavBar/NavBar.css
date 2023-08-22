@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+     margin: 0;
+}
+.customNavbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    background-color: orange;
+    height: 15vh;
+}
+.centrarDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 3%;
+}
+.customNavbarItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+}
+.customLink{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5%;
+    padding: 2%;
+    color: orange;
+    font-weight: bold;
+}
+.customLink:hover{
+    border: 2px solid black;
+    color:black;
+}
+.customCart{
+    background-color: white;
+    border-radius: 5%;
+    padding: 2%;
+}

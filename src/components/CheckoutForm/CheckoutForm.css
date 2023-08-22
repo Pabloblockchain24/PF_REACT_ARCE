@@ -1,0 +1,25 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+.centrarCheckout{
+    margin-block: 20px;
+    text-align: center;
+}
+
+.formItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40%;
+    padding: 20px;
+}
+.buttonCrearOrden{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}

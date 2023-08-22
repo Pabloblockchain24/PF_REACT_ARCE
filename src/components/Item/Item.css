@@ -1,0 +1,44 @@
+.customCard{
+    background-color: rgb(214, 214, 214);
+    margin: 1%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 95%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.customItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.ImgSize{
+    width: 500px;
+    height: 200px;
+}
+
+.customButton{
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.customButton:hover{
+    border: 2px solid black;
+    color:black;
+}
+
+.customInfo{
+    margin-bottom: 0;
+}
+
+.customFooter{
+    margin-top: 5px;
+}

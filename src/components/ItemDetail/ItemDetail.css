@@ -1,0 +1,54 @@
+.ImgSize{
+    width: 70%;
+}
+
+.cardItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(212, 212, 212);
+    border-radius: 5px;
+    padding-top:10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.centrarItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.customInfo{
+    margin-bottom: 0;
+}
+
+.customTerminarCompra{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.customFooter{
+    margin-block: 15px;
+}
+
+
+.customButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.customSeguirComprando{
+    margin-top: 15px;
+    background-color: rgb(255, 153, 0);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
